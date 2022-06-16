@@ -1,0 +1,145 @@
+:root{
+    
+    --color-primary: #ff4040;
+    --color-secondary: #222222;
+    --color-third: #242629;
+    --color-body: #777a7e;
+    /* background-color: #c29494; */
+
+}
+
+/* .nav-button:hover{
+background-color: #fff !important;
+
+} */
+/* .nav-button{
+    transition: all ease-in-out 2s;
+} */
+.custom-nav{
+    z-index: 10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(36, 38, 41, 0.102);
+}
+
+.hero{
+    height: 600px;
+   background-size: cover;
+   background-position: center;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* services */
+#services {
+background-color: #242629;
+font-family: 'Roboto', sans-serif;
+padding-bottom: 20px;
+}  
+
+.ALL-CATEGORIES-LIST{
+    border-bottom: 20px solid red;
+}
+.services-section-pic-wrapper{
+    width: 100px;
+    height: 100px;
+    
+}
+.services-section-picture{
+    width: 80px;
+    height: 80px;
+    background-image: url(./keenah.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.ALL-CATEGORIES-LIST{
+    border-bottom: 3px solid red;
+   
+
+}
+
+/* .service-card :hover{
+    background-color: red;
+} */
+
+
+  .element:hover {
+    background: red;
+    padding: 20px;
+  }
+  .service-contact{
+      padding: 80px 20px;
+      top: 10px;
+  }
+  .freebies{
+      font-size: 12px;
+  }
+  .service-contact-button{
+      font-size: 14px;
+  }
+
+  /* About Us */
+
+  #About-us{
+      margin-top: 100px;
+  }
+  .About-us-section-pic-wrapper{
+    width: 500px;
+    height: 600px;
+    width: 60%;
+    
+    
+}
+  .About-us-section-picture{
+   width:550px ;
+   height: 620px;
+   background-image: url(./keenah.jpg);
+   background-position: end;
+   background-size: cover;
+   bottom: -5px;
+   
+
+}
+.About-us-section-mini-picture{
+    width:200px ;
+    height: 200px;
+    bottom:  -80px;
+    left: -140px;
+    background-image: url(./keenah.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .desc{
+     right: -3%;
+     width: 60%;
+ }
+ /* portfolio */
+ #portfolio{
+     /* background-color: #242629; */
+     margin-top: 150px;
+     padding: 100px 0px;
+ }
+
+ .showcase{
+     
+     height: 400px;
+     background-position: center;
+    background-size: cover;
+ }
+
+.number{
+    width: 18%;
+    height: 100px;
+    bottom: -10px;
+    right:-10px ;
+}
+/* press */
+#press{
+    margin-top: 100px;
+}
+.press-logo{
+    width: 150px;
+}
